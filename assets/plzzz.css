@@ -1,0 +1,68 @@
+body {
+	background: url(http://thepatternlibrary.com/img/h.jpg);
+}
+
+.container {
+	border-radius: 25px;
+	background-color: white;
+	height: 520px;
+	width: 640px;
+	margin-top: 60px;
+}
+
+#plis {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(https://image.freepik.com/free-vector/health-care-center-isometric-composition_1284-24937.jpg);
+	background-size: cover;
+	height: 200px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	margin-left: -16px;
+	margin-right: -16px;
+	background-repeat: no-repeat;
+}
+
+#center {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: black;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+}
+
+#form {
+	position: absolute;
+	top: 50%;
+	margin: auto;
+	padding: 20px;
+}
+
+label {
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-decoration: none;
+	width: 360px;
+}
+
+input:focus,
+textarea {
+	outline: none !important;
+}
+
+.btn {
+	margin-left: 380px;
+	margin-top: 12px;
+	width: 120px;
+}
